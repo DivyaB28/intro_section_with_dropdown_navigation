@@ -98,7 +98,7 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
             About
           </a>
         </li>
-        <li className="md:ml-auto">
+        <li className={` ${isMenuOpen ? "" : "md:ml-auto"}`}>
           <a href="/" className=" block hover:text-almost-black">
             Login
           </a>

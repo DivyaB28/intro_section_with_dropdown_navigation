@@ -5,6 +5,7 @@ const HambergerMenu = ({ toggleMenu, isMenuOpen }) => {
     <button
       type="button"
       onClick={toggleMenu}
+      aria-label="hamberger menu"
       aria-haspopup="menu"
       aria-expanded={isMenuOpen}
       aria-controls="navbar-menu"
